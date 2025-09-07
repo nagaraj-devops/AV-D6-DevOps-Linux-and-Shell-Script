@@ -54,11 +54,41 @@ vim → Insert mode (i), Escape, then :wq! (write + quit), :q! (quit without sav
 nano → Simple terminal editor.
 
 View file contents
-
+```
 cat filename      # Print contents of file
-
+```
 
 Echo text
-
+```
 echo "hello"
 echo a{1..5}      # Expands to: a1 a2 a3 a4 a5
+```
+
+## 4. Permissions & Execution
+
+Change permissions
+```
+chmod +x filename   # Make script executable
+chmod 777 filename  # Full permissions (rwx for all)
+```
+
+Permission breakdown
+
+4 = read
+
+2 = write
+
+1 = execute
+
+Applies to User, Group, Others
+
+Run script
+```
+./filename
+sh filename
+```
+
+Manual pages
+```
+man chmod     # Get help for chmod
+```

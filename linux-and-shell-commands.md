@@ -92,3 +92,21 @@ Manual pages
 ```
 man chmod     # Get help for chmod
 ```
+
+## 5. Search & Filters
+
+- grep → Search text in files
+
+- awk → Text processing
+
+## 6. System Commands
+
+- pwd → Show present working directory
+
+- clear → Clear terminal (or use Ctrl + L)
+
+- history → Show history of executed commands
+
+## 7. Useful Flags
+
+- -r → Recursive (used in commands like cp, rm, chmod)

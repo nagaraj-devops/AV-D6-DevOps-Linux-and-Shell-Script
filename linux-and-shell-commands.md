@@ -107,6 +107,24 @@ man chmod     # Get help for chmod
 
 - history → Show history of executed commands
 
-## 7. Useful Flags
+## 7. System Resource Commands
+
+Check memory usage
+```
+free
+free -h      # Human-readable format (MB/GB)
+```
+
+Check disk usage
+```
+df -h        # Human-readable disk space usage
+```
+
+Check number of CPU cores
+```
+nproc        # Prints available CPU cores
+```
+
+## 8. Useful Flags
 
 - -r → Recursive (used in commands like cp, rm, chmod)

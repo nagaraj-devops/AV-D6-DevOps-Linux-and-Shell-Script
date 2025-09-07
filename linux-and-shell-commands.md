@@ -25,7 +25,7 @@ ll             # Alias for 'ls -l' (if configured)
 Create files
 
 ```touch index{1..5}.html```
-# Creates: index1.html index2.html index3.html index4.html index5.html
+Creates: index1.html index2.html index3.html index4.html index5.html
 
 
 Create directories
